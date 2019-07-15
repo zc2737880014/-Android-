@@ -9,3 +9,5 @@ Project3是浙大android课程 Chapter-3的作业（内含一个doc说明文档�
 Project4是浙大android课程 Chapter-4的作业（内含一个doc说明文档）
 
 Project5是浙大android课程 Chapter-5的作业，补全了老师下发的practice
+
+Project6是浙大android课程 Chapter-6的作业（内含一个doc说明文档）
