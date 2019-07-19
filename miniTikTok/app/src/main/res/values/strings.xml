@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">miniTikTok</string>
+    <string name="request_data">request data</string>
+    <string name="requesting">requesting…</string>
+    <string name="select_an_image">选择封面</string>
+    <string name="select_a_video">选择一段视频</string>
+    <string name="post_it">上传</string>
+    <string name="refresh_feed">refresh feed</string>
+    <string name="success_try_refresh">上传成功，点击刷新</string>
+</resources>

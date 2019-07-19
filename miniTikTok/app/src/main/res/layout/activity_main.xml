@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="-40dp"
+            android:orientation="horizontal"
+            android:gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_above="@+id/rv">
+            <TextView
+                android:id="@+id/tv_shouye"
+                android:text="首页"
+                android:textSize="20dp"
+                android:background="@color/colorTranslate"
+                android:textColor="@color/colorFont"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"/>
+            <TextView
+                android:id="@+id/tv_paishe"
+                android:text="拍摄"
+                android:textSize="20dp"
+                android:background="@color/colorTranslate"
+                android:textColor="@color/colorFont"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"/>
+            <TextView
+                android:id="@+id/tv_shangchuan"
+                android:text="上传"
+                android:textSize="20dp"
+                android:background="@color/colorTranslate"
+                android:textColor="@color/colorFont"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"/>
+
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/refresh"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-540dp"
+            android:layout_marginBottom="0dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_refresh"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
